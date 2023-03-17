@@ -1,0 +1,35 @@
+/* Empuja el footer */
+.body-mod{
+	background: white;
+	margin: 0;
+	display: grid;
+	min-height: 100vh;
+	grid-template-rows: auto 1fr auto;
+}
+
+.cover{
+  height: 450px;
+  color: white;
+  background-size: cover;/*imagen completa en el contenedor*/
+  background-position: center;
+  /*background-color: rgba(0,0,0,0.5);*/
+  /*background-blend-mode: darken;*/
+}
+
+.cover-small{/*tamaño de imagen*/
+  height: 400px;
+  width: 550px;
+  background-blend-mode: normal;
+}
+
+.cover-button{
+	background-color: rgba(0,0,0,0.4);
+	background-blend-mode: darken;
+	background-blend-mode: normal;
+}
+
+.tamaño-button{
+	height: 30px;
+	min-width: 30px;
+	position: absolute;
+}
